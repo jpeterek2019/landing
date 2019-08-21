@@ -1,0 +1,30 @@
+.boxes {
+display: flex;
+justify-content: space-around;
+align-items: flex-center;
+}
+
+.box{
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 350px;
+  height: 400px;
+}
+
+.text{
+  color: #263d51;
+}
+
+.boxes img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.boxes {
+  position: relative;
+  margin: 20px;
+  background-color: white;
+}
+
+
